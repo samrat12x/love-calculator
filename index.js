@@ -27,7 +27,7 @@ $(".Predict").click(function() {
         $(".container").hide();//common before results came in
 
     
-    if(love>=90)
+    if(love>=85)
     {
 
         $(".conclusion").after( "<h4>We can see the future!!!....</h4> ");
@@ -62,7 +62,7 @@ $(".Predict").click(function() {
 
 
     }
-    else if(love>=70 &&love<90)
+    else if(love>=65 &&love<85)
     {
         $(".conclusion").after( "<h4>Your Vibes are matching!!!....</h4> ");
         $("<img  src='images/giphy (1).gif'>").insertAfter("h4");
@@ -81,7 +81,7 @@ $("img").remove();
               
 
 }
-    else if(love>=40 &&love<70)
+    else if(love>=40 &&love<65)
     {  
         
      $(".conclusion").after( "<h4>Sunn,Efforts lagate reh ,samjha..</h4> ");
