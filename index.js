@@ -3,7 +3,7 @@
 $(".result").hide();
 $(".getback").hide();
 $(".conclusion").hide();
-alert("hello");
+
 
 var s;//i have to make this sound object global
 
